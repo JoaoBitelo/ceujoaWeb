@@ -1,0 +1,125 @@
+.AddCalendar {
+    margin: auto;
+}
+
+.AddCalendar .close {
+    cursor: pointer;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 18px;
+    border: 1px solid white;
+    outline: none;
+    border: none;
+}
+
+.AddCalendar .header {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    background-color: #86d198;
+    color: black;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.AddCalendar .content {
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #b6f0c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.AddCalendar .line {
+    display: flex;
+    flex-direction: row;
+}
+
+.AddCalendar .TextFields {
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 25px;
+    margin: 25px;
+}
+
+.AddCalendar .TextFields2 {
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 25px;
+    margin: 0px;
+    align-self: center;
+}
+
+.AddCalendar .TextFieldsInputs {
+    flex: 3;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    align-self: center;
+    margin: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 250px;
+}
+
+.AddCalendar .TextFieldsInputs2 {
+    flex: 3;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    align-self: center;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 50px;
+}
+
+.AddCalendar .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+    background-color: #86d198;
+}
+
+.AddCalendar .button {
+    background-color: #9CF1B0;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}
+
+.AddCalendar .buttonCancel {
+    background-color: grey;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}

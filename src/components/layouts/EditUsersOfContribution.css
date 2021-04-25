@@ -1,0 +1,98 @@
+.modalContribution {
+    margin: auto;
+}
+
+.modalContribution .header {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #86d198;
+    color: black;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.modalContribution .contents {
+    width: 50vw;
+    height: 50vh;
+    background-color: #b6f0c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.modalContribution .liness {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.modalContribution .TextFieldss {
+    flex: 2;
+    text-align: center;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.modalContribution .TextFieldss2 {
+    flex: 2;
+    background-color: brown;
+    text-align: center;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.modalContribution .checkboxs {
+    flex: 1;
+}
+
+.modalContribution .actions {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    text-align: center;
+    background-color: #86d198;
+}
+
+.modalContribution .button {
+    background-color: #9CF1B0;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}
+
+.modalContribution .buttonCancel {
+    background-color: grey;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}

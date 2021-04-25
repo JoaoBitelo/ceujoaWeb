@@ -1,0 +1,81 @@
+.Etiquette {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Etiquette .UsersContent {
+    flex: 8;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #f1f1f1;
+}
+
+.Etiquette .UsersContent .Contents {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Etiquette .UsersContent .Contents .ContentsItem {
+    background-color: #9CF1B0;
+    box-shadow: 0px 4px 4px 0px black;
+    height: 70%;
+    width: 70%;
+}
+
+.Etiquette .UsersContent .Contents .TextFieldTittle {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    white-space: pre-wrap;
+    text-align: center;
+    font-style: italic;
+    border: none;
+    outline: none;
+    height: 5%;
+    width: 90%;
+    resize: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Etiquette .UsersContent .Contents .TextField {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    white-space: pre-wrap;
+    text-align: center;
+    font-style: italic;
+    border: none;
+    outline: none;
+    height: 70%;
+    width: 90%;
+    resize: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Etiquette .UsersContent .Contents .Button {
+    background-color: #9CF1B0;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}

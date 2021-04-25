@@ -1,0 +1,160 @@
+.EditCalendar {
+    margin: auto;
+}
+
+.ListContentTableIndividualRowCalendar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ListContentTableIndividualRowTextCalendar {
+    flex: 2;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 15px;
+    border-right: 1px solid black;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.ListContentTableIndividualRowTextLastOneCalendar {
+    flex: 1;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.EditCalendar .header {
+    width: 100%;
+    font-size: 180px;
+    text-align: center;
+    padding: 5px;
+    background-color: #86d198;
+    color: black;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.EditCalendar .content {
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #b6f0c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.EditCalendar .line {
+    display: flex;
+    flex-direction: row;
+}
+
+.EditCalendar .TextFields {
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 25px;
+    margin: 25px;
+}
+
+.EditCalendar .TextFields2 {
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 25px;
+    margin: 0px;
+    align-self: center;
+}
+
+.EditCalendar .TextFieldsInputs {
+    flex: 3;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    align-self: center;
+    margin: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 250px;
+}
+
+.EditCalendar .TextFieldsInputs2 {
+    flex: 3;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    align-self: center;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 30px;
+}
+
+.EditCalendar .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+    background-color: #86d198;
+}
+
+.EditCalendar .buttonDelete {
+    background-color: rgb(248, 42, 42);
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}
+
+.EditCalendar .buttonCancel {
+    background-color: grey;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}
+
+.EditCalendar .buttonUpdate {
+    background-color: #9CF1B0;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}

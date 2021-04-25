@@ -1,0 +1,105 @@
+.DeleteCalendar {
+    margin: auto;
+}
+
+.DeleteCalendar .close {
+    cursor: pointer;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 18px;
+    border: 1px solid white;
+    outline: none;
+    border: none;
+}
+
+.DeleteCalendar .header {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    background-color: #86d198;
+    color: black;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.DeleteCalendar .content {
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #b6f0c4;
+}
+
+.DeleteCalendar .line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.DeleteCalendar .TextFields {
+    flex: 10;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.DeleteCalendar .TextFields2 {
+    flex: 1;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.DeleteCalendar .TextFieldsInputs {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 50px;
+}
+
+.DeleteCalendar .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+    background-color: #86d198;
+}
+
+.DeleteCalendar .buttonCancel {
+    background-color: grey;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}
+
+.EditCalendar .buttonDelete {
+    background-color: rgb(248, 42, 42);
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}

@@ -1,0 +1,134 @@
+.AddDegreeContent {
+    margin: auto;
+}
+
+.AddDegreeContent .ListContentTableIndividualRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+    cursor: pointer;
+}
+
+.AddDegreeContent .ListContentTableIndividualRowText {
+    flex: 1;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 15px;
+    border-right: 1px solid black;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.AddDegreeContent .ListContentTableIndividualRowTextLastOne {
+    flex: 1;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.AddDegreeContent .lineMain {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../assets/backgroundHomeLeft.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.AddDegreeContent .content {
+    background-image: url(../../assets/ensinoScreen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.AddDegreeContent .line {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.AddDegreeContent .subline {
+    flex: 1;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-content: center;
+    justify-content: center;
+}
+
+.AddDegreeContent .TextFields {
+    text-align: start;
+    color: white;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 4px;
+}
+
+.AddDegreeContent .TextFieldsInputs {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin: auto;
+    padding: 0px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px;
+}
+
+.AddDegreeContent .actions {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.AddDegreeContent .buttonCancel {
+    background-color: grey;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}
+
+.AddDegreeContent .buttonUpdate {
+    background-color: #9CF1B0;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}

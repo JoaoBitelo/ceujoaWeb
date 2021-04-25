@@ -1,0 +1,132 @@
+.EditContribution {
+    margin: auto;
+}
+
+.EditContribution .ListContentTableIndividualRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+    cursor: pointer;
+}
+
+.EditContribution .ListContentTableIndividualRowTextLastOne {
+    flex: 1;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.EditContribution .header {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #86d198;
+    color: black;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.EditContribution .content {
+    width: 40vw;
+    height: 70vh;
+    padding-bottom: 10px;
+    background-color: #b6f0c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.EditContribution .line {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.EditContribution .TextFields {
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 25px;
+    margin: 25px;
+}
+
+.EditContribution .TextFieldsInputs {
+    flex: 2;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    margin: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 250px;
+}
+
+.EditContribution .actions {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    text-align: center;
+    background-color: #86d198;
+}
+
+.EditContribution .buttonDelete {
+    background-color: rgb(248, 42, 42);
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}
+
+.EditContribution .buttonCancel {
+    background-color: grey;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}
+
+.EditContribution .buttonUpdate {
+    background-color: #9CF1B0;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px 0px black;
+}
